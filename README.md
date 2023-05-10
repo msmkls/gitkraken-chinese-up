@@ -1,8 +1,13 @@
-# 延续 GitKraken的中文汉化补丁 - by K-Skye 项目汉化升级到9.3.0版本
+# 延续 GitKraken的中文汉化补丁 - by K-Skye 项目汉化升级到9.4.0版本
 
 感谢原作者
 
+2023.05.10 更新9.4.0汉化文件
+2023.05.07 更新9.3.0汉化文件
+
 原项目地址：https://github.com/k-skye/gitkraken-chinese
+
+
 
 ## 说明
 自从用上了GitKraken就爱上了，卸载了其他相关git的gui，它的界面非常合我的胃口，但是苦于官方没有中文简体，于是便有了汉化的想法.  
@@ -17,18 +22,18 @@
 ## 原理
 
 通过修改软件目录下english语言对应的一个json文件内容来完成汉化目的
-  
+
 （自动生成json工具已实现自动翻译。因有道API属于收费接口，故不提供appKey，有需要者自行申请。）  
 ## 操作步骤
 
 1. 将项目中的 `strings.json` 替换到 GitKraken 语言目录下的 `strings.json`.  
-(实际目录可能会不一样,但文件名一定是strings.json)
+   (实际目录可能会不一样,但文件名一定是strings.json)
   
    - Windows: `%程序安装目录%\gitkraken\app-x.x.x\resources\app\src\strings.json` (x.x.x 是你的GitKraken版本)
    - Mac: `/Applications/GitKraken.app/Contents/Resources/app/src/strings.json`
    - Linux: `/usr/share/gitkraken/resources/app.asar.unpacked/src` (感谢@lyydhy 10.31补充 Gitkraken是deepin 通过deb 安装的)
    - Linux: `/opt/gitkraken/resources/app.asar.unpacked/src/strings.json` (Arch Linux AUR 安装的路径在这)
-     
+   
 2. 重启GitKraken.
 
 ## issue
